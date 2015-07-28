@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title> Testing HTML5 </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+    nav {
+	display:block;
+	border:solid 1px Grey;	
+	
+}
+nav ul {
+	padding:0;
+	margin:0;
+}
+nav li {
+	position:relative;
+	float:left;
+	list-style-type:none;	
+	padding : 10px 20px 10px 10px;
+}
+nav ul ul {
+	visibility:hidden;
+	position:absolute;
+		
+}
+
+    </style>
+</head>
+
+<body id="index" class="home">
+	<header id="banner" class="body">
+    	<h1> Learning HTML5 </h1>
+        
+        <nav>
+        	<ul> 
+            	<li class="active"> <a href="#">Home </a></li>
+                <li> <a href="#">About Me </a></li>
+                <li> 
+                	<a href="#">Blog </a>
+                    <ul> 
+                    	<li> <a href="#"> One </a> </li>
+                        <li> <a href="#"> Two </a> </li>
+                    </ul>
+                </li>
+                <li> <a href="#">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+	
+    
+</body>
+
+</html> 
